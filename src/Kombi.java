@@ -1,7 +1,7 @@
 public class Kombi extends Auto{
 
-    public Kombi(String erstzulassung, int kmZustand,
+    public Kombi(String marke, String erstzulassung, int kmZustand,
                  double preis, int anzahlDerTüren){
-        super("Kombi", erstzulassung, kmZustand, preis, anzahlDerTüren);
+        super(marke,"Kombi", erstzulassung, kmZustand, preis, anzahlDerTüren);
     }
 }
